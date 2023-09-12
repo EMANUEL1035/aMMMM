@@ -10,6 +10,6 @@
         <link rel="stylesheet" href="./estilos/style.css">
     </head>
     <body>
-        <p class="text">HOLA MUNDO</p>
+        <p class="text">HOLA MUNDO ssss</p>
     </body>
 </html>
