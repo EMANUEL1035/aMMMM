@@ -54,3 +54,27 @@ header{
     content:  " | " ;
     color: rgb(88, 88, 88);
 }
+.footer{
+    display: flex;
+    background-color: #1c2028;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.footer_texto{
+    width: 70%;
+    font-size: var(--primary-font-size);
+    padding-left: 5px;
+    color: white;
+}
+.footer_redes_sociales{
+    width:70%;
+    text-align: right;
+}
+.footer_lista_redes_sociales{
+    display: inline-block;
+    padding-right: 10px;
+}
+.footer_redes_sociales img{
+    width: 25px;
+}   

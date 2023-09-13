@@ -1,3 +1,3 @@
 <?php include("header.php"); ?>
 
-hola soy el index
+<?php include("footer.php"); ?>
