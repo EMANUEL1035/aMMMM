@@ -16,10 +16,9 @@ html{
 header{
     display: flex;
     align-items: center;
-    /* position: sticky; */
     top: 0px;
     background-color: #13161c;
-    
+    height: 57px;
 }
 .header_logo{
     text-align: left;
@@ -40,8 +39,12 @@ header{
 .header_lista_atajos{
     display: inline-block;
     font-size: var(--primary-font-size);
-    padding-right: 15px;
-
+    padding-right: 10px;
+}
+.header_lista_atajos_2{
+    display: inline-block;
+    font-size: var(--primary-font-size);
+    padding-right: 10px;
 }
 .header_lista_atajos a{
     text-decoration: none;
@@ -53,28 +56,41 @@ header{
 .header_lista_atajos a::after{
     content:  " | " ;
     color: rgb(88, 88, 88);
+    margin-left: 10px;
 }
 .footer{
     display: flex;
     background-color: #1c2028;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: auto;
+}
+.footer_1{
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.footer img{
+    width: 120px;
 }
 .footer_texto{
-    width: 70%;
+    padding-right: 10px;
     font-size: var(--primary-font-size);
-    padding-left: 5px;
+    font-family: oswald, helvetica, arial, sans-serif;
     color: white;
 }
-.footer_redes_sociales{
-    width:70%;
-    text-align: right;
-}
+
 .footer_lista_redes_sociales{
     display: inline-block;
     padding-right: 10px;
 }
-.footer_redes_sociales img{
-    width: 25px;
-}   
+.footer_lista_redes_sociales a{
+    color: white;
+    font-size: var(--segundary-font-size);
+}

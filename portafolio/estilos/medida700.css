@@ -1,0 +1,9 @@
+.footer{
+    flex-wrap: wrap;
+}
+.footer_texto{
+    padding-bottom: 20px;
+}
+.footer_lista_redes_sociales{
+    padding-bottom: 20px;
+}
