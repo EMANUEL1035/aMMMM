@@ -1,3 +1,56 @@
-.text{
-    color: blue;
+:root{
+    --primary-font-size: 1.8rem;
+    --segundary-font-size: 2.5rem;
+    --terciary-font-size: 2.1rem
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}       
+html{
+    font-size: 62.5%;
+    background-color: #13161c;
+}
+header{
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    top: 0px;
+    background-color: #13161c;
+    
+}
+.header_logo{
+    text-align: left;
+    width: 10%;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-left: 13px;
+}
+.header_logo img{
+    height: 3rem;
+    width: 9rem;
+    padding: 2px;
+}
+.header_atajos{
+    width: 100%;
+    text-align: right;
+}
+.header_lista_atajos{
+    display: inline-block;
+    font-size: var(--primary-font-size);
+    padding-right: 15px;
+
+}
+.header_lista_atajos a{
+    text-decoration: none;
+    color: white;
+    font-family: oswald, helvetica, arial, sans-serif;
+    /* display: flex;
+    text-align: start; */
+}
+.header_lista_atajos a::after{
+    content:  " | " ;
+    color: rgb(88, 88, 88);
 }
