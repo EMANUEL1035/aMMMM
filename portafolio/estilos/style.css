@@ -11,14 +11,14 @@
 }       
 html{
     font-size: 62.5%;
-    background-color: #13161c;
+    /* background-color: #13161c; */
     /* background-image: url("../fondo.jpg") ; */
 }
 header{
     display: flex;
     align-items: center;
     top: 0px;
-    background-color: #13161c;
+    /* background-color: #13161c; */
     height: 57px;
 }
 .header_logo{
@@ -61,7 +61,7 @@ header{
 }
 .footer{
     display: flex;
-    background-color: #1c2028;
+    /* background-color: #1c2028; */
     height: auto;
 }
 .footer_1{

@@ -5,7 +5,7 @@
 .header_atajos{
     position: absolute;
     top: 58px;
-    background-color: #2c323c;
+    /* background-color: #2c323c; */
     transform: translateX(-100%);
     transition: 0.3s ease all;
     align-items: center;
