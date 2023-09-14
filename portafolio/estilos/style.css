@@ -11,7 +11,8 @@
 }       
 html{
     font-size: 62.5%;
-    background-color: #13161c;
+    /* background-color: #13161c; */
+    background-image: url("../fondo.jpg") ;
 }
 header{
     display: flex;
@@ -93,4 +94,7 @@ header{
 .footer_lista_redes_sociales a{
     color: white;
     font-size: var(--segundary-font-size);
+}
+.fondo{
+    background-image: url("../fondo.jpg") ;
 }

@@ -9,7 +9,7 @@
         <title>Operadores Aritmeticos</title>
         <link rel="stylesheet" href="./estilos/style.css">
         <link rel="stylesheet" href="./estilos/medida700.css" media="screen and (max-width: 700px)"/>
-        <link rel="stylesheet" href="./estilos/medida1100.css" media="screen and (max-width: 1100px)"/>
+        <link rel="stylesheet" href="./estilos/medida1100.css" media="screen and (max-width: 950px)"/>
         <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
     </head>
     <body>

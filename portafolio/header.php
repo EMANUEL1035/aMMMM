@@ -9,7 +9,7 @@
         <title>Operadores Aritmeticos</title>
         <link rel="stylesheet" href="./estilos/style.css">
         <link rel="stylesheet" href="./estilos/medida700.css" media="screen and (max-width: 700px)"/>
-        <link rel="stylesheet" href="./estilos/medida1100.css" media="screen and (max-width: 1100px)"/>
+        <link rel="stylesheet" href="./estilos/medida1100.css" media="screen and (max-width: 950px)"/>
         <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -21,8 +21,7 @@
             <li class="header_lista_atajos"><a href="index.php" target="_blank"><div class="header_lista_atajos_2"><i class="fas fa-tv"></i></div> Nuestra plataforma </a></li>
             <li class="header_lista_atajos"><a href="index.php" target="_blank"><div class="header_lista_atajos_2"><i class="fas fa-sort-amount-up"></i></div> Montar un servivio </a></li>
             <li class="header_lista_atajos"><a href="index.php" target="_blank"><div class="header_lista_atajos_2"><i class="fas fa-search"></i></div> Buscar un servicio </a></li>
-            <li class="header_lista_atajos"><a href="portafolio.php" target="_blank"><div class="header_lista_atajos_2"><i class="fas fa-address-card"></i></div> Registrarse </a></li>
-            <li class="header_lista_atajos"><a href="cerrar.php" target="_blank"><div class="header_lista_atajos_2"><i class="fas fa-door-open"></i></div> Iniciar sesión </a></li>
+            <li class="header_lista_atajos"><a href="cerrar.php" target="_blank"><div class="header_lista_atajos_2"><i class="fas fa-door-closed"></i></div> Cerrrar sesión </a></li>
         </div>
         <div class="nav_toggle" id="_toggle">
             <span></span>
